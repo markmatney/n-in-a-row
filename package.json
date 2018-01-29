@@ -1,0 +1,33 @@
+{
+  "name": "n-in-a-row",
+  "version": "0.1.0",
+  "description": "Backend for a generalized, web-based, multi-player connect-four game.",
+  "main": "dist/api.js",
+  "scripts": {
+    "start-debug": "gulp run --debug",
+    "start": "gulp run",
+    "test": "gulp test"
+  },
+  "author": "Mark Allen Matney, Jr.",
+  "license": "ISC",
+  "dependencies": {
+    "basic-auth": "^2.0.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^3.1.38",
+    "@types/node": "^9.3.0",
+    "chakram": "^1.5.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^5.0.0",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-typescript": "^4.0.0-alpha.1",
+    "mocha": "^4.1.0",
+    "run-sequence": "^2.2.1",
+    "typescript": "^2.6.2"
+  }
+}

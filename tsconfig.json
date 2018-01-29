@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "removeComments": true,
+        "strictNullChecks": true
+    },
+    "files": [
+        "src/**/*.ts"
+    }
+}
