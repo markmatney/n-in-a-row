@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- "6"
+before_script:
+- npm install -g gulp-cli
+deploy:
+  provider: heroku
+  app: n-in-a-row
+  on:
+    branch: master
+  api_key:
+    secure: YIqFp4cUvOYhszDWdq1JKPAvN/1LBV7SNGHkwHqdS1vpX4xxP9PlhPMmgjylZiv1ki9iU7Onq55zVXSeIJW5e4jz0JRb30eiARNAl96rbqhV7UkNcKKszlr5nubN+cSWB1TYNPyFo7EEjm9FviphrniwJi621kmIfnFxxQnds4PCQMvBB9CpD8cWkrw/MNsX6s1S7OWuD0UTiyHmpvslzwjXnA1PfpZbAKEkozWjzHFhHyESPtFugoNxqUgHZJJjuXfeOD2dD2GDJGjS/pPCOHzXlqAkqXDdyQ59eZWTk1GqXFtWY6MsU47EYtihyXPh7sHaz6AXTNESGORgU1O29auf5W32umpiT2+qwaV+7LUGS+NG2jI1A1TCkgI5W2KaCMotLCsLeISI02miIuKPYyaTozo6IME1bqZmln1ZNhqJQTzz0L+jj4t2BbgykuKusFNPtApI33Me5bASmzdyjzzxtQO4dKLtO3EktFo+zcjYlnsupbEfs1HycPgu9kfY6j41y48uiaZG659989vxQ6abRCUOa9DqCAYwvkNA/I/2mNuQMa7C250Ya0ZMQon0mvFrYmenYINsLI58A+3/XIcZGNdCQ5JUMyvjx4PbZYeNM8sho06541NkXFg26br4SjT62Va/KEIFfbD1ybQkiHo9zGK1lOSr0zLseO+fgdE=
