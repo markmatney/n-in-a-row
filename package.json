@@ -7,7 +7,7 @@
     "start-debug": "gulp run --debug",
     "start": "gulp && node dist/api.js",
     "test": "gulp test",
-    "heroku-postbuild": "npm install -g gulp-cli"
+    "heroku-prebuild": "npm install -g gulp-cli"
   },
   "author": "Mark Allen Matney, Jr.",
   "license": "ISC",
